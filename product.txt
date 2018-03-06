@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+  <!-- =====  BASIC PAGE NEEDS  ===== -->
+  <meta charset="utf-8">
+  <title>Home</title>
+  <!-- =====  SEO MATE  ===== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- =====  MOBILE SPECIFICATION  ===== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width">
+  <!-- =====  CSS  ===== -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/menu.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mb.ytplayer.min.css" media="all">
+</head>
+
+<body id="home2" class="home2">
+  <!-- =====  LODER  ===== -->
+  <div class="loder"></div>
+  <div class="wrapper">
+
+
+    
+   
+    <!-- =====  SERVICES STRAT  ===== -->
+    <section id="service" class="pt_100 pb_50">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading-part ">
+              <h2 class="main_title mb_20">Why Choose Bitcoin</h2>
+              <p class="mb_50">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Services  -->
+        <div class="row">
+          <div class="col-md-4 col-xs-6 mb_50">
+            <div class="service" id="serviceFirst">
+              <div class="icon-top"><img src="images/serviceicon/service-1.png" alt="#"></div>
+              <h4 class="mtb_20">Safe And Secure</h4>
+              <p>It is a long established fact that reader distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6 mb_50">
+            <div class="service" id="serviceSecond">
+              <div class="icon-top"><img src="images/serviceicon/service-2.png" alt="#"></div>
+              <h4 class="mtb_20">Mobile App</h4>
+              <p>It is a long established fact that reader distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6 mb_50">
+            <div class="service" id="serviceThird">
+              <div class="icon-top"><img src="images/serviceicon/service-3.png" alt="#"></div>
+              <h4 class="mtb_20">Secure Wallet</h4>
+              <p>It is a long established fact that reader distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6 mb_50">
+            <div class="service" id="serviceForth">
+              <div class="icon-top"><img src="images/serviceicon/service-4.png" alt="#"></div>
+              <h4 class="mtb_20">Covered By Insurance</h4>
+              <p>It is a long established fact that reader distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6 mb_50">
+            <div class="service" id="serviceFifth">
+              <div class="icon-top"><img src="images/serviceicon/service-5.png" alt="#"></div>
+              <h4 class="mtb_20">Recurring Buying</h4>
+              <p>It is a long established fact that reader distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6 mb_50">
+            <div class="service" id="serviceSixth">
+              <div class="icon-top"><img src="images/serviceicon/service-6.png" alt="#"></div>
+              <h4 class="mtb_20">Instant Exchange</h4>
+              <p>It is a long established fact that reader distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div>
+        </div>
+         <div class="">
+            <input class="" type="text" name="name" placeholder="Name" data-required="true" />
+         </div>
+         <button class="custom-btn custom-btns mt_60" type="submit" tar><span>submit</span></button>
+        
+        <!-- Services -->
+      </div>
+    </section>
+    <!-- =====  SERVICES END  ===== -->
+  
+   
+  
+   
+   
+   
+   
+    
+    <!-- =====  FOOTER START  ===== -->
+    <div class="footer bg-dark ptb_100">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="footer-link">
+              <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Service</a></li>
+                <li> <a href="#">Work</a></li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Team</a></li>
+                <li> <a href="#">Blogs</a></li>
+                <li> <a href="#">Testimonial</a></li>
+                <li> <a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="copyright-part mtb_10">Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></div>
+            <div class="social_icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =====  FOOTER END  ===== -->
+  </div>
+  <!-- =====  WRAPPER END  ===== -->
+  <!-- =====  SCRIPT START  ===== -->
+  <script src="js/jQuery_v3.1.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/letters-type.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/circle-progress.js"></script>
+  <script src="js/circle-progress-examples.js"></script>
+
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $("#serviceFirst").click(function(){
+      $("#serviceFirst").toggleClass("service1");
+    });
+  });
+  $(document).ready(function(){
+    $("#serviceSecond").click(function(){
+      $("#serviceSecond").toggleClass("service1");
+    });
+  });
+  $(document).ready(function(){
+    $("#serviceThird").click(function(){
+      $("#serviceThird").toggleClass("service1");
+    });
+  });
+  $(document).ready(function(){
+    $("#serviceForth").click(function(){
+      $("#serviceForth").toggleClass("service1");
+    });
+  });
+  $(document).ready(function(){
+    $("#serviceFifth").click(function(){
+      $("#serviceFifth").toggleClass("service1");
+    });
+  });
+  $(document).ready(function(){
+    $("#serviceSixth").click(function(){
+      $("#serviceSixth").toggleClass("service1");
+    });
+  });
+  </script>
+
+  <!---<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAT3mI0RI16q19Oxv93gSxN0cF0wfxWN6w"></script>--->
+  <script src="js/parallax.js"></script>
+  <script src="js/jquery.easeScroll.js"></script>
+  <script type="text/javascript">
+  $("html").easeScroll();
+  // Add scrollspy to <body>
+  $('body').scrollspy({ target: '#menu' })
+  $("#menu ul li a[href^='#'], .home-arrow-down a").on('click', function(e) {
+    // prevent default anchor click behavior
+    e.preventDefault();
+    // store hash
+    var hash = this.hash;
+    // animate
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 1500, function() {
+      // when done, add hash to url
+      // (default click behaviour)
+      window.location.hash = hash;
+    });
+  });
+  </script>
+  <!-- =====  SCRIPT END  ===== -->
+</body>
+
+</html>

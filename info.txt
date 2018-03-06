@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+  <!-- =====  BASIC PAGE NEEDS  ===== -->
+  <meta charset="utf-8">
+  <title>Home</title>
+  <!-- =====  SEO MATE  ===== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- =====  MOBILE SPECIFICATION  ===== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width">
+  <!-- =====  CSS  ===== -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/menu.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mb.ytplayer.min.css" media="all">
+</head>
+
+<body id="home2" class="home2">
+  <!-- =====  LODER  ===== -->
+  <div class="loder"></div>
+  <div class="wrapper">
+
+
+   
+    <!-- =====  CONTACT START  ===== -->
+    <section id="contact" class="ptb_100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb_20 col-md-offset-3 text-center">
+            <div class="heading-part ">
+              <h2 class="main_title mb_20">Declaration Form</h2>
+              <p>The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            </div>
+          </div>
+        </div>
+        <!-- contact  -->
+        <div class="row">
+          <div class="col-md-12 col-xs-12 contact-form">
+            <!-- Contact FORM -->
+            <div id="contact_form">
+              <form id="contact_body" method="post" action="contact_me.php">
+                <div class="col-md-6 col-xs-12">
+                  <input class="full-with-form mt_30" type="text" name="name" placeholder="Name" data-required="true" />
+                </div>
+                <div class="col-md-6 col-xs-12">
+                  <input class="full-with-form mt_30" type="text" name="email" placeholder="Platform" data-required="true" />
+                </div>
+                <div class="col-md-6 col-xs-12">
+                  <input class="full-with-form mt_30" type="text" name="phone1" placeholder="Phone Number" maxlength="15" data-required="true" />
+                </div>
+                <div class="col-md-6 col-xs-12">
+                  <input class="full-with-form mt_30" type="text" name="subject" placeholder="Amount" data-required="true">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                  <input class="full-with-form mt_30" id="dateNow" readonly="readonly" type="text" name="Date" placeholder="getDateNow()" data-required="true">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                  <input class="full-with-form mt_30" id="chooseNow" type="text" readonly="" name="Duration" placeholder="Duration" data-required="true">
+                    <div id="parent1">
+                      <select id="parentC" onchange="opData(this.options[this.options.selectedIndex].value)">
+                          <option value="P">请选择</option>
+                          <option value="F">1月标</option>
+                          <option value="T">3月标</option>
+                          <option value="S">6月标</option>
+                          <option value="O">其他</option>
+                      </select>
+                    </div>  
+                </div>
+                  
+                <button class="custom-btn custom-btns mt_60" type="submit" tar><span>Send Message</span></button>
+              </form>
+              <div id="contact_results"></div>
+            </div>
+            <!-- END Contact FORM -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =====  CONTACT END  ===== -->
+    <!-- =====  FOOTER START  ===== -->
+    <div class="footer bg-dark ptb_100">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="footer-link">
+              <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Service</a></li>
+                <li> <a href="#">Work</a></li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Team</a></li>
+                <li> <a href="#">Blogs</a></li>
+                <li> <a href="#">Testimonial</a></li>
+                <li> <a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="copyright-part mtb_10">Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></div>
+            <div class="social_icon">
+              <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =====  FOOTER END  ===== -->
+  </div>
+  <!-- =====  WRAPPER END  ===== -->
+  <!-- =====  SCRIPT START  ===== -->
+  <script src="js/jQuery_v3.1.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/letters-type.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/circle-progress.js"></script>
+  <script src="js/circle-progress-examples.js"></script>
+   <script type="text/javascript">
+    var myDate = new Date();
+    var DateUse = myDate.toLocaleDateString();     //获取当前日期
+    console.log(DateUse)
+    $(document).ready(function(){
+    $("#dateNow").attr('placeholder',DateUse);
+  });
+  </script>
+  <script type="text/javascript">
+     function opData(vData){     
+        console.log(vData) 
+        if (vData=="P"){
+              $("#chooseNow").attr("readonly","readonly")
+              $(document).ready(function(){
+              $("#chooseNow").attr('placeholder',"请选择");});
+          }
+          else if(vData=="F")
+          {
+              $("#chooseNow").attr("readonly","readonly")
+              $(document).ready(function(){
+              $("#chooseNow").attr('placeholder',"1月标");});
+          }
+          else if(vData=="T")
+          {
+              $("#chooseNow").attr("readonly","readonly")
+              $(document).ready(function(){
+              $("#chooseNow").attr('placeholder',"3月标");});
+          }
+          else if(vData=="S")
+          {
+              $("#chooseNow").attr("readonly","readonly")
+              $(document).ready(function(){
+              $("#chooseNow").attr('placeholder',"6月标");});
+          }
+          else if(vData=="O")
+          {
+              $("#chooseNow").removeAttr("readonly");
+              $(document).ready(function(){
+              $("#chooseNow").attr('placeholder',"请输入天数");});
+          }
+    }     
+  </script>
+
+ 
+
+  <!---<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAT3mI0RI16q19Oxv93gSxN0cF0wfxWN6w"></script>--->
+  <script src="js/parallax.js"></script>
+  <script src="js/jquery.easeScroll.js"></script>
+  <script type="text/javascript">
+  $("html").easeScroll();
+  // Add scrollspy to <body>
+  $('body').scrollspy({ target: '#menu' })
+  $("#menu ul li a[href^='#'], .home-arrow-down a").on('click', function(e) {
+    // prevent default anchor click behavior
+    e.preventDefault();
+    // store hash
+    var hash = this.hash;
+    // animate
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 1500, function() {
+      // when done, add hash to url
+      // (default click behaviour)
+      window.location.hash = hash;
+    });
+  });
+  </script>
+  <!-- =====  SCRIPT END  ===== -->
+</body>
+
+</html>
