@@ -175,28 +175,41 @@
     function sendPost(){
             var val1 = document.getElementById("key1").value;
             var val2 = document.getElementById("key2").value;
-            var postBody = {
-              "email":val1,
-              "password":val2,
-              "rememberMe":true
-            }
+            var va = [1,2,3,4,5]
+            va.length = 3;
+            console.log(va);
+            console.log(va.length);
+            va.length = 0;
+            console.log(va);
+            console.log(va.length);
+            va.length = 5;
+            console.log(va);
+            console.log(va.length);
 
-            console.log(val1) 
-            console.log(val2)
+
+
+            // var postBody = {
+            //   "email":val1,
+            //   "password":val2,
+            //   "rememberMe":true
+            // }
+
+            // console.log(val1) 
+            // console.log(val2)
         //     $.post("Access-Control-Allow-Origin: http://45.76.199.184:9000/api/v1/login/signIn", {'email':val1, 'password':val2},function(msg){
         //       console.log(val2)
         //       console.log(msg);
         //     }, "json");
         // }
-        ajaxGetData("http://45.76.199.184:9000/api/v1/login/signIn?",postBody,function(res){
-          console.log(res);
-          if(res.errorCode==0){
-            console.log(val2) 
-            console.log(msg);
-          }else{    
-              console.log(11111);
-          }
-          });
+        // ajaxGetData("http://45.76.199.184:9000/api/v1/login/signIn?",postBody,function(res){
+        //   console.log(res);
+        //   if(res.errorCode==0){
+        //     console.log(val2) 
+        //     console.log(msg);
+        //   }else{    
+        //       console.log(11111);
+        //   }
+        //   });
 
         }
   </script>
@@ -228,3 +241,4 @@
 </body>
 
 </html>
+
